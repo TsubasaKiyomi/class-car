@@ -19,12 +19,12 @@ class Bed(House):
 
 
 class Living(House):
-    def living_room(House):
+    def living_room(self):
         print("living_room", "テレビがあります。")
 
 
 class Dining(House):
-    def dining_room(House):
+    def dining_room(self):
         print("dining_room", "ソファーがあります。")
 
 
