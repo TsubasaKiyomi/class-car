@@ -1,6 +1,4 @@
-class Clothes():
-    def wear(self):
-        print("wear")
+from .haori import Clothes
 
 
 class Lower_body(Clothes):
@@ -26,24 +24,3 @@ class Neck(Clothes):
 class Hand(Clothes):
     def gloves(self):
         print("gloves")
-
-
-lower_body = Lower_body()
-# lower_body.wear()
-lower_body.pants()
-
-foot = Foot()
-# foot.wear()
-foot.socks()
-
-outerwear = Outerwear()
-# outerwear.wear()
-outerwear.outet()
-
-neck = Neck()
-# neck.wear()
-neck.muffler()
-
-hand = Hand()
-# hand.wear()
-hand.gloves()

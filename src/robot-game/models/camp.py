@@ -1,6 +1,4 @@
-class Robot():
-    def arm(self):
-        print("arm")
+from .RobotModel import Robot
 
 
 class Dog(Robot):
@@ -16,16 +14,3 @@ class Cat(Robot):
 class Human(Robot):
     def bipedal_walking(self):
         print("bipedal_walking")
-
-
-dog = Dog()
-dog.arm()
-dog.bark()
-
-cat = Cat()
-cat.arm()
-cat.crows()
-
-human = Human()
-human.arm()
-human.bipedal_walking()

@@ -1,6 +1,4 @@
-class House():
-    def room(self):
-        print("room")
+from .house import House
 
 
 class Kitchen(House):
@@ -26,24 +24,3 @@ class Living(House):
 class Dining(House):
     def dining_room(self):
         print("dining_room", "ソファーがあります。")
-
-
-kitchen = Kitchen()
-kitchen.room()
-kitchen.kitchen_room()
-
-shower = Shower()
-shower.room()
-shower.shower_room()
-
-bed = Bed()
-bed.room()
-bed.bed_room()
-
-living = Living()
-living.room()
-living.living_room()
-
-dining = Dining()
-dining.room()
-dining.dining_room()

@@ -1,6 +1,4 @@
-class Curry:
-    def pot(self):
-        print("pot", "に")
+from .curry import Curry
 
 
 class Onion(Curry):
@@ -21,20 +19,3 @@ class Potato(Curry):
 class Meat(Curry):
     def meat(self):
         print("meat", "を入れました")
-
-
-onion = Onion()
-onion.pot()
-onion.onion()
-
-carrot = Carrot()
-carrot.pot()
-carrot.carrot()
-
-potato = Potato()
-potato.pot()
-potato.potato()
-
-meat = Meat()
-meat.pot()
-meat.meat()
